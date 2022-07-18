@@ -8,5 +8,12 @@
     "isolatedModules": false,
     "noEmit": false,
     "esModuleInterop": true
-  }
+  },
+  "include": [
+    "next-env.d.ts",
+    "next-auth.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.js"
+  ]
 }
